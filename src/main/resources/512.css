@@ -1,0 +1,5 @@
+.text-field {
+	-fx-background-image: url(512.png);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}

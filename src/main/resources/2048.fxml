@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addGauche" text="Gauche" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addDroite" text="Droite" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addHaut" text="Haut" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addBas" text="Bas" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <TextField fx:id="c1" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c2" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c3" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c4" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c5" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c6" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c7" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c8" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c9" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.rowIndex="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c10" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c11" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c12" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c13" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.rowIndex="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c14" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c16" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c15" alignment="CENTER" editable="false" prefHeight="100.0" prefWidth="113.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="scoreText" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font size="19.0" />
+         </font></TextField>
+      <TextField fx:id="etatText" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Button mnemonicParsing="false" onAction="#restart" text="Rejouer" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label text="q pour quitter" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label text="Score :" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label text="Max :" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>
