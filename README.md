@@ -1,5 +1,7 @@
 # README #
 
+The project is designed with the MVC pattern.
+
 ### What is this repository for? ###
 
 * JavaFX/FXML 2048 with pokemons
